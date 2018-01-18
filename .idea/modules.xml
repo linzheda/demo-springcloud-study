@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-springcloud-study.iml" filepath="$PROJECT_DIR$/demo-springcloud-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-book/microservice-consumer-book.iml" filepath="$PROJECT_DIR$/microservice-consumer-book/microservice-consumer-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-student/microservice-provider-student.iml" filepath="$PROJECT_DIR$/microservice-provider-student/microservice-provider-student.iml" />
     </modules>
   </component>
