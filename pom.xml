@@ -7,7 +7,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>microservice-provider-student</module>
-        <module>microservice-consumer-book</module>
+        <module>microservice-consumer-teacher</module>
+        <module>microservice-eureka-discovery</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,7 +31,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.BUILD-SNAPSHOT</version>
+                <version>Dalston.SR5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -43,7 +44,36 @@
             <artifactId>lombok</artifactId>
             <version>1.16.14</version>
         </dependency>
-
+        <!-- springboot依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--actuator自省和监控  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- swagger2依赖 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.2.2</version>
+        </dependency>
     </dependencies>
 
     <build>
