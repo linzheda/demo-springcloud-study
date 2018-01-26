@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-consumer-book" />
+        <module name="microservice-consumer-teacher" />
         <module name="microservice-eureka-discovery" />
         <module name="microservice-provider-student" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="demo-springcloud-study" target="1.8" />
       <module name="microservice-consumer-book" target="1.8" />
+      <module name="microservice-consumer-teacher" target="1.8" />
       <module name="microservice-eureka-discovery" target="1.8" />
       <module name="microservice-provider-student" target="1.8" />
     </bytecodeTargetLevel>
